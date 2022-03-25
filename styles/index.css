@@ -14,10 +14,9 @@
 :root {
   /* 전체 배경 */
   --body-bg: #ffffff;
-
   /* 상단 바 */
   /* 상단 바 배경 색 */
-  --header-bg: var(--body-bg);
+  --header-bg: #ffffff;
   /* 상단 바 글자 색 */
   --header-font: #000000;
 
@@ -30,7 +29,7 @@
 
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
-  --cta-button-bg: #01c0e2;
+  --cta-button-bg: #000000;
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -72,9 +71,9 @@
 
   /* Product */
   /* 배경 색 */
-  --product-title-bg: var(--section-title-bg);
+  --product-title-bg: #000000;
   /* 글자 색 */
-  --product-title-font: var(--section-title-font);
+  --product-title-font: #ffffff;
   /* 카드 색 */
   --product-card-bg: var(--section-card-bg);
   /* 카드 제목 색 */
@@ -86,7 +85,7 @@
   /* 배경 색 */
   --tag-bg: #f5f5f5;
   /* 글자 색 */
-  --tag-font: #737373;
+  --tag-font: #ffffff;
   
   /* Team */
   /* 배경 색 */
@@ -190,9 +189,10 @@ nav {
 
 .top-banner {
   height: 400px;
-  background: var(--top-banner-bg);
+  background: linear-gradient(83.84deg, #0B2859 41.1%, rgba(96, 43, 209, 0.47) 107.92%);;
   color: var(--top-banner-font);
   display: flex;
+  justify-content: space-between;
 }
 
 /* 탑배너 */
@@ -221,13 +221,13 @@ nav {
 }
 
 .top-banner__subtitle {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .top-banner__cta-button {
   margin-top: 67px;
-  background: var(--cta-banner-button-bg);
+  background: #ff9100;
   color: var(--cta-banner-button-font);
   width: 310px;
   height: 67px;
@@ -248,8 +248,8 @@ nav {
 }
 
 #service-section > .section-title {
-  background-color: var(--service-title-bg);
-  color: var(--service-title-font);
+  background-color: #ffffff;
+  color: #000000;
 }
 
 #service-section > .grid-3fr > .card__ {
@@ -265,8 +265,8 @@ nav {
 }
 
 #product-section > .section-title {
-  background-color: var(--product-title-bg);
-  color: var(--product-title-font);
+  background-color: #ffffff;
+  color: #000000;
 }
 
 #product-section > .grid-3fr > .card__ {
@@ -386,7 +386,7 @@ nav {
 }
 
 .cta-button {
-  background-color: var(--cta-footer-button-bg);
+  background-color: #f87a05;
   height: 100%;
   font-size: 20px;
   line-height: 30px;
