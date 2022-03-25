@@ -184,7 +184,7 @@ nav {
 }
 
 .nav__link {
-  margin-left: 24px;
+  margin-left: 10px;
 }
 
 .top-banner {
@@ -226,8 +226,8 @@ nav {
 }
 
 .top-banner__cta-button {
-  margin-top: 67px;
-  background: #ff9100;
+  margin-top: 35px;
+  background: #FF6600;
   color: var(--cta-banner-button-font);
   width: 310px;
   height: 67px;
@@ -286,6 +286,9 @@ nav {
   background-color: var(--product-card-tag-bg);
 }
 
+#team-section > .container {
+  background-color: #FF6600;
+}
 
 #team-section > .section-title {
   background-color: var(--team-title-bg);
@@ -348,7 +351,7 @@ nav {
   margin-bottom: 4px;
 }
 .card__subtitle {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   padding: 2px 0px;
   margin-bottom: 4px;
@@ -386,7 +389,7 @@ nav {
 }
 
 .cta-button {
-  background-color: #f87a05;
+  background-color: #FF6600;
   height: 100%;
   font-size: 20px;
   line-height: 30px;
